@@ -1,0 +1,201 @@
+[
+  {
+    "event_id": "VRC_20241215120000_abc123",
+    "timestamp": "2024-12-15T12:00:00",
+    "collector": {
+      "collector_id": "COL001",
+      "name": "Ram Kumar",
+      "license_number": "MP/COL/2024/001",
+      "experience_years": 8,
+      "contact_info": "+91-9876543210"
+    },
+    "location": {
+      "latitude": 23.2599,
+      "longitude": 77.4126,
+      "accuracy": 5.0,
+      "altitude": 500.0
+    },
+    "species": {
+      "common_name": "ashwagandha",
+      "scientific_name": "Withania somnifera",
+      "local_names": ["asgandh", "winter cherry"],
+      "conservation_status": "least_concern",
+      "harvest_seasons": ["winter", "post_monsoon"],
+      "restricted_regions": []
+    },
+    "quantity_kg": 25.5,
+    "harvest_method": "selective_picking",
+    "quality_metrics": {
+      "moisture_content": 8.5,
+      "ash_content": 6.2,
+      "visual_quality_score": 8,
+      "contamination_present": false,
+      "notes": "Good quality roots with proper drying"
+    },
+    "photos": [
+      "ashwagandha_field_001.jpg",
+      "ashwagandha_harvest_001.jpg"
+    ],
+    "weather_conditions": "Clear, dry weather",
+    "notes": "Collected from organic certified farm in Madhya Pradesh"
+  },
+  {
+    "event_id": "VRC_20241214090000_def456",
+    "timestamp": "2024-12-14T09:00:00",
+    "collector": {
+      "collector_id": "COL002",
+      "name": "Sita Devi",
+      "license_number": null,
+      "experience_years": 15,
+      "contact_info": "+91-9876543211"
+    },
+    "location": {
+      "latitude": 28.6139,
+      "longitude": 77.2090,
+      "accuracy": 3.0,
+      "altitude": 216.0
+    },
+    "species": {
+      "common_name": "tulsi",
+      "scientific_name": "Ocimum tenuiflorum",
+      "local_names": ["holy basil", "shyama tulsi"],
+      "conservation_status": "least_concern",
+      "harvest_seasons": ["summer", "post_monsoon"],
+      "restricted_regions": []
+    },
+    "quantity_kg": 5.2,
+    "harvest_method": "leaf_picking",
+    "quality_metrics": {
+      "moisture_content": 12.1,
+      "ash_content": 8.9,
+      "visual_quality_score": 7,
+      "contamination_present": false,
+      "notes": "Fresh leaves, slightly high moisture"
+    },
+    "photos": [
+      "tulsi_garden_001.jpg"
+    ],
+    "weather_conditions": "Humid morning",
+    "notes": "Collected from backyard cultivation in Delhi"
+  },
+  {
+    "event_id": "VRC_20241210140000_ghi789",
+    "timestamp": "2024-12-10T14:00:00",
+    "collector": {
+      "collector_id": "COL003",
+      "name": "Mohan Singh",
+      "license_number": "RJ/COL/2024/007",
+      "experience_years": 12,
+      "contact_info": "+91-9876543212"
+    },
+    "location": {
+      "latitude": 27.0238,
+      "longitude": 74.2179,
+      "accuracy": 8.0,
+      "altitude": 750.0
+    },
+    "species": {
+      "common_name": "brahmi",
+      "scientific_name": "Bacopa monnieri",
+      "local_names": ["bacopa", "water hyssop"],
+      "conservation_status": "vulnerable",
+      "harvest_seasons": ["monsoon", "post_monsoon"],
+      "restricted_regions": ["wetlands"]
+    },
+    "quantity_kg": 15.0,
+    "harvest_method": "whole_plant",
+    "quality_metrics": {
+      "moisture_content": 15.2,
+      "ash_content": 12.5,
+      "visual_quality_score": 6,
+      "contamination_present": true,
+      "notes": "Some soil contamination, needs cleaning"
+    },
+    "photos": [
+      "brahmi_wetland_001.jpg",
+      "brahmi_harvest_001.jpg"
+    ],
+    "weather_conditions": "Post-monsoon, muddy conditions",
+    "notes": "Collected from natural wetland in Rajasthan - may need permit review"
+  },
+  {
+    "event_id": "VRC_20241208080000_jkl012",
+    "timestamp": "2024-12-08T08:00:00",
+    "collector": {
+      "collector_id": "COL004",
+      "name": "Lakshmi Iyer",
+      "license_number": "TN/COL/2024/012",
+      "experience_years": 20,
+      "contact_info": "+91-9876543213"
+    },
+    "location": {
+      "latitude": 11.0168,
+      "longitude": 76.9558,
+      "accuracy": 2.0,
+      "altitude": 920.0
+    },
+    "species": {
+      "common_name": "turmeric",
+      "scientific_name": "Curcuma longa",
+      "local_names": ["haldi", "manjal"],
+      "conservation_status": "least_concern",
+      "harvest_seasons": ["post_monsoon", "winter"],
+      "restricted_regions": []
+    },
+    "quantity_kg": 45.8,
+    "harvest_method": "rhizome_digging",
+    "quality_metrics": {
+      "moisture_content": 7.8,
+      "ash_content": 5.1,
+      "visual_quality_score": 9,
+      "contamination_present": false,
+      "notes": "Excellent quality organic turmeric"
+    },
+    "photos": [
+      "turmeric_field_001.jpg",
+      "turmeric_rhizomes_001.jpg",
+      "turmeric_processing_001.jpg"
+    ],
+    "weather_conditions": "Cool morning, ideal harvesting conditions",
+    "notes": "Premium quality turmeric from Western Ghats organic farm"
+  },
+  {
+    "event_id": "VRC_20241205160000_mno345",
+    "timestamp": "2024-12-05T16:00:00",
+    "collector": {
+      "collector_id": "COL005",
+      "name": "Arjun Patel",
+      "license_number": "GJ/COL/2024/003",
+      "experience_years": 5,
+      "contact_info": "+91-9876543214"
+    },
+    "location": {
+      "latitude": 23.0225,
+      "longitude": 72.5714,
+      "accuracy": 10.0,
+      "altitude": 55.0
+    },
+    "species": {
+      "common_name": "neem",
+      "scientific_name": "Azadirachta indica",
+      "local_names": ["nim", "margosa"],
+      "conservation_status": "least_concern",
+      "harvest_seasons": ["summer", "winter"],
+      "restricted_regions": []
+    },
+    "quantity_kg": 12.3,
+    "harvest_method": "bark_collection",
+    "quality_metrics": {
+      "moisture_content": 9.4,
+      "ash_content": 7.8,
+      "visual_quality_score": 8,
+      "contamination_present": false,
+      "notes": "Mature bark from healthy trees"
+    },
+    "photos": [
+      "neem_trees_001.jpg"
+    ],
+    "weather_conditions": "Hot afternoon",
+    "notes": "Sustainable bark collection from Gujarat plantation"
+  }
+]

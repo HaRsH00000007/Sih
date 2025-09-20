@@ -1,0 +1,32 @@
+2025-09-13 11:34:21 | INFO     | agents.serper_agent:search_species_info:65 - Searching species info for: ashwagandha ayurvedic herb scientific name properties harvesting
+2025-09-13 11:34:22 | ERROR    | agents.serper_agent:_perform_search:189 - Serper API error 403: {"message":"Unauthorized.","statusCode":403}
+2025-09-13 11:34:22 | ERROR    | agents.serper_agent:search_species_info:86 - Error searching species info: API request failed with status 403
+2025-09-13 11:36:00 | INFO     | agents.orchestrator:validate_collection:39 - Starting orchestrated validation for event: VRC_20241215120000_abc123
+2025-09-13 11:36:00 | INFO     | core.validation:validate_collection_event:39 - Starting validation for event: VRC_20241215120000_abc123
+2025-09-13 11:36:00 | INFO     | core.validation:_validate_basic_requirements:121 - Performing basic validation checks
+2025-09-13 11:36:00 | INFO     | core.validation:_validate_basic_requirements:201 - Basic validation completed: ComplianceStatus.NON_COMPLIANT
+2025-09-13 11:36:00 | ERROR    | core.validation:validate_collection_event:109 - Critical error in validation coordinator: unhashable type: 'dict'
+2025-09-13 11:36:00 | INFO     | agents.orchestrator:_enhance_with_ai_analysis:273 - Enhancing validation with AI analysis
+2025-09-13 11:36:00 | INFO     | agents.llm_agent:analyze_collection_compliance:36 - Analyzing compliance for event: VRC_20241215120000_abc123
+2025-09-13 11:36:00 | INFO     | core.validation:_perform_satellite_validation:206 - Performing satellite validation
+2025-09-13 11:36:00 | INFO     | core.satellite:validate_location:42 - Validating location: 23.2599, 77.4126
+2025-09-13 11:36:00 | INFO     | core.validation:_perform_regulatory_validation:250 - Performing regulatory validation
+2025-09-13 11:36:00 | INFO     | core.regulatory:check_species_compliance:32 - Checking compliance for species: ashwagandha
+2025-09-13 11:36:00 | INFO     | core.validation:_perform_quality_validation:300 - Performing quality validation
+2025-09-13 11:36:00 | INFO     | core.regulatory:validate_quality_standards:128 - Validating quality standards for ashwagandha
+2025-09-13 11:36:00 | ERROR    | agents.llm_agent:_make_llm_request:177 - Groq API error 400: {"error":{"message":"The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.","type":"invalid_request_error","code":"model_decommissioned"}}
+
+2025-09-13 11:36:00 | ERROR    | agents.llm_agent:analyze_collection_compliance:59 - Error in LLM compliance analysis: LLM API request failed with status 400
+2025-09-13 11:36:00 | WARNING  | agents.orchestrator:_enhance_with_ai_analysis:312 - AI analysis failed, returning original validation result
+2025-09-13 11:38:59 | INFO     | agents.serper_agent:search_species_info:65 - Searching species info for: ashwagandha ayurvedic herb scientific name properties harvesting
+2025-09-13 11:39:02 | ERROR    | agents.serper_agent:_perform_search:189 - Serper API error 403: {"message":"Unauthorized.","statusCode":403}
+2025-09-13 11:39:02 | ERROR    | agents.serper_agent:search_species_info:86 - Error searching species info: API request failed with status 403
+2025-09-13 11:40:12 | INFO     | agents.serper_agent:search_species_info:65 - Searching species info for: ashwagandha ayurvedic herb scientific name properties harvesting
+2025-09-13 11:40:13 | ERROR    | agents.serper_agent:_perform_search:189 - Serper API error 403: {"message":"Unauthorized.","statusCode":403}
+2025-09-13 11:40:13 | ERROR    | agents.serper_agent:search_species_info:86 - Error searching species info: API request failed with status 403
+2025-09-13 11:47:10 | INFO     | agents.serper_agent:search_species_info:65 - Searching species info for: ashwagandha ayurvedic herb scientific name properties harvesting
+2025-09-13 11:47:11 | ERROR    | agents.serper_agent:_perform_search:189 - Serper API error 403: {"message":"Unauthorized.","statusCode":403}
+2025-09-13 11:47:11 | ERROR    | agents.serper_agent:search_species_info:86 - Error searching species info: API request failed with status 403
+2025-09-18 23:35:38 | INFO     | agents.serper_agent:search_species_info:65 - Searching species info for: ashwagandha ayurvedic herb scientific name properties harvesting
+2025-09-18 23:35:39 | ERROR    | agents.serper_agent:_perform_search:189 - Serper API error 403: {"message":"Unauthorized.","statusCode":403}
+2025-09-18 23:35:39 | ERROR    | agents.serper_agent:search_species_info:86 - Error searching species info: API request failed with status 403

@@ -1,0 +1,31 @@
+# Core dependencies
+streamlit
+pydantic
+python-dotenv
+requests
+pandas
+numpy
+
+# AI/ML dependencies
+groq
+
+# Geospatial and mapping
+folium
+geopy
+
+# Data validation and serialization
+email-validator
+
+# Logging and utilities
+loguru
+
+# Testing (optional)
+pytest
+pytest-asyncio
+
+# Development tools (optional)
+black
+flake8
+mypy
+
+aiohttp
